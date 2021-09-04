@@ -103,23 +103,29 @@ header {
 }
 .contact-header {
   display: flex;
-  margin-left: auto;
+  margin-left: 305px;
   padding-left: 0;
 }
 .contact-header .link + .link {
   display: block;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
-.contact-header a {
+.contact-header .link-icon {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
   text-decoration: none;
   color: var(--contact-color);
+  fill: var(--contact-color);
 }
-.contact-header a:focus,
-.contact-header a:hover {
+.icon {
+  margin-right: 10px;
+}
+
+.link-icon:hover,
+.link-icon:focus {
+  fill: var(--accent-color);
   color: var(--accent-color);
 }
 
@@ -351,6 +357,12 @@ header {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--contact-color);
+}
+.properties .icon {
+  display: block;
+  background-color: var(--accent-background-color);
+  padding: 25px 100px;
+  margin-bottom: 30px;
 }
 /* About main */
 .about-us {
