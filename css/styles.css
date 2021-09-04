@@ -424,6 +424,27 @@ header {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: var(--header-background-color);
+}
+.icon-thumb {
+  width: 206px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-icon {
+  margin-right: 10px;
+}
+
+.icon-thumb .icon {
+  display: block;
+  margin-right: 0;
+}
+.item-icon .icon:hover,
+.item-icon .icon:focus {
+  background-color: var(--accent-color);
+  fill: #fff;
 }
 
 .team h3 {
