@@ -234,6 +234,19 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+.footer-section .container {
+  display: flex;
+  align-items: flex-start;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--background-color);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
 
 .logo-navigation-footer {
   color: var(--header-background-color);
@@ -249,6 +262,31 @@ header {
 }
 .item-footer:not(:last-child) {
   margin-bottom: 9px;
+}
+.icon-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.item-icon:not(:last-child) {
+  margin-right: 10px;
+}
+
+.item-icon .footer-icon {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  fill: var(--header-background-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.item-icon .footer-icon:hover,
+.item-icon .footer-icon:focus {
+  background-color: var(--accent-color);
+  fill: var(--header-background-color);
 }
 
 .contact-footer p {
@@ -275,6 +313,12 @@ header {
 .contact-footer a:hover {
   color: var(--accent-color);
 }
+
+.social-list {
+  margin-top: 12px;
+  margin-left: 70px;
+}
+
 /* Main Studio */
 /* Hero Main */
 .hero-section {
@@ -445,6 +489,7 @@ header {
   padding: 12px;
   border-radius: 50%;
   fill: #afb1b8;
+  cursor: pointer;
 }
 
 .item-icon .icon:hover,
@@ -474,6 +519,10 @@ header {
   padding-bottom: 94px;
   background-color: var(--header-background-color);
 }
+
+.clients-thumb {
+  display: flex;
+}
 .clients-title {
   font-weight: 700;
   font-size: 36px;
@@ -481,6 +530,7 @@ header {
   letter-spacing: 0.03em;
   color: var(--brand-color);
   text-align: center;
+  margin-bottom: 51px;
 }
 
 .clients-border {
@@ -488,9 +538,13 @@ header {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .clients-icon {
   display: block;
-  padding: 16px 32px;
+}
+
+.clients-border:not(:last-child) {
+  margin-right: 30px;
 }
