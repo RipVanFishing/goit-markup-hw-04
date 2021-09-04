@@ -119,7 +119,7 @@ header {
   color: var(--contact-color);
   fill: var(--contact-color);
 }
-.icon {
+.link-icon .icon {
   margin-right: 10px;
 }
 
@@ -427,24 +427,30 @@ header {
   background-color: var(--header-background-color);
 }
 .icon-thumb {
-  width: 206px;
+  width: 270px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
-
-.item-icon {
+.item-icon:not(:last-child) {
   margin-right: 10px;
 }
 
-.icon-thumb .icon {
+.item-icon .icon {
   display: block;
-  margin-right: 0;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  fill: #afb1b8;
 }
+
 .item-icon .icon:hover,
 .item-icon .icon:focus {
   background-color: var(--accent-color);
-  fill: #fff;
+  fill: var(--header-background-color);
 }
 
 .team h3 {
