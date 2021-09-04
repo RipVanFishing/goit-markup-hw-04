@@ -539,12 +539,18 @@ header {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   padding: 16px 32px;
+  fill: #afb1b8;
+}
+.clients-border:hover,
+.clients-border:focus {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 .clients-icon {
   display: block;
 }
 
-.clients-border:not(:last-child) {
+.clients-list:not(:last-child) {
   margin-right: 30px;
 }
