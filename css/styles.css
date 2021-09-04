@@ -467,3 +467,30 @@ header {
   letter-spacing: 0.03em;
   color: var(--contact-color);
 }
+
+/*  Clients Main */
+.clients {
+  padding-top: 99px;
+  padding-bottom: 94px;
+  background-color: var(--header-background-color);
+}
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+  text-align: center;
+}
+
+.clients-border {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-icon {
+  display: block;
+  padding: 16px 32px;
+}
