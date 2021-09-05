@@ -331,7 +331,14 @@ header {
 .hero-section {
   padding-bottom: 200px;
   padding-top: 200px;
-  background: var(--footer-background-color);
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #c4c4c4;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-background.jpg);
 }
 
 .hero-title {
