@@ -119,6 +119,10 @@ header {
   color: var(--contact-color);
   fill: var(--contact-color);
 }
+.link-icon {
+  display: flex;
+  align-items: center;
+}
 .link-icon .icon {
   margin-right: 10px;
 }
@@ -392,11 +396,17 @@ header {
 .properties-title {
   margin: 0;
 }
-.properties > .item {
+.properties .item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
+  height: 120px;
+  background-color: var(--accent-background-color);
+  margin-bottom: 30px;
 }
 
-.properties > .item:not(:last-child) {
+.properties > :not(:last-child) {
   margin-right: 30px;
 }
 .properties h3 {
@@ -416,12 +426,7 @@ header {
   letter-spacing: 0.03em;
   color: var(--contact-color);
 }
-.properties .icon {
-  display: block;
-  background-color: var(--accent-background-color);
-  padding: 25px 100px;
-  margin-bottom: 30px;
-}
+
 /* About main */
 .about-us {
   background-color: var(--background-color);
